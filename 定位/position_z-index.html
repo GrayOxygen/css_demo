@@ -4,16 +4,8 @@
 <head>
     <title>POSITION：z-index</title>
     <style type="text/css">
-    .description {
-        position: relative;
-        float: left;
-        white-space: normal;
-        padding-right: 100px;
-        width: 200px;
-    }
-    /*如下css是例子的主要css*/
-    
-    .example_1 {
+    .example_1,
+    .example_2 {
         margin-top: 60px;
     }
     
@@ -37,20 +29,16 @@
     
     .example_1 .z2 {
         z-index: 2;
-        top: 30px;
+        top: 45px;
         left: 530px;
         background: #999999;
     }
     
     .example_1 .z3 {
         z-index: 3;
-        top: 60px;
+        top: 80px;
         left: 560px;
         background: #CCCC33;
-    }
-    
-    .example_2 {
-        margin-top: 60px;
     }
     
     .example_2 .z1,
@@ -87,7 +75,7 @@
     
     .example_3 .z1,
     .example_3 .z2,
-    .example_2 .z3 {
+    .example_3 .z3 {
         width: 200px;
         height: 100px;
         padding: 5px 10px;
@@ -116,25 +104,21 @@
     
     .example_3 .z2 {
         z-index: 2;
-        top: 600px;
+        top: 570px;
         left: 530px;
         background: #999999;
     }
     
     .example_3 .z3 {
         z-index: 3;
-        top: 640px;
-        left: 530px;
+        top: 610px;
+        left: 560px;
         background: #CCCC33;
     }
     </style>
 </head>
 
 <body>
-    <div class="description">
-        适用于定位元素（定义了position为非static的元素）
-        <br> 下面三个例子一次演示：全为absolute、relative以及一个relative一个absolute一个fixed的情况
-    </div>
     <div class="content">
         <div class="example_1">
             <div class="z1">z-index:1</div>
