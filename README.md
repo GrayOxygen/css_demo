@@ -1,5 +1,5 @@
-# jquery_demo
-jquery练习demo
+# css_demo
+css练习demo
 
 > 本工程为jquery的练习，一是复习基础的知识，二是给便于以后快速查阅
 
